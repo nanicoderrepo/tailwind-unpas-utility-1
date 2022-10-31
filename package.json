@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-unpas-utility-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./tailwind.css -o ./style.css --watch",
+    "css": "tailwindcss -o ./final.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanicoderrepo/tailwind-unpas-utility-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanicoderrepo/tailwind-unpas-utility-1/issues"
+  },
+  "homepage": "https://github.com/nanicoderrepo/tailwind-unpas-utility-1#readme",
+  "dependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
